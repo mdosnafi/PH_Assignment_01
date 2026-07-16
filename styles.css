@@ -149,4 +149,27 @@ nav {
 
 .about_speakers_title {
     text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+
+    font-size: 60px;
+
+}
+
+.speakers_grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+     gap: 20px;
+}
+
+.speakers_card span {
+    color: rgb(52, 141, 237);
+    font-size: 12px;
+    font-weight: 650;
+}
+
+.pp {
+    /* background-color: rgb(86, 52, 1); */
+    color: #615c5c;
+    font-size: 16px;
 }
