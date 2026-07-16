@@ -1,9 +1,8 @@
-* {
-    font-family: "Inter", sans-serif;
 
-}
 
 * {
+      font-family: "Inter", sans-serif;
+
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -172,4 +171,107 @@ nav {
     /* background-color: rgb(86, 52, 1); */
     color: #615c5c;
     font-size: 16px;
+}
+/* /////////////////////////////////////////////// */
+
+.container2 {
+    max-width: 1300px;
+    margin: auto;
+    padding: 8px 30px;
+}
+.secure_your_spot_title {
+    margin-bottom: 30px;
+}
+
+.Pricing_section_whole{
+    display: flex;
+    /* justify-content: center;
+     */
+     align-items: center;
+    flex-direction: column;
+    
+}
+
+.all_price_cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 65px;
+}
+
+.price_card {
+     text-align: left; 
+    /* background-color: bisque; */
+     padding: 40px;
+     border-radius: 10px;
+}
+.price_card hr {
+    margin-top: 18px ;
+    margin-bottom: 18px ;
+}
+
+.price_card button {
+    display: block;
+    margin: 15px auto 0;
+}
+
+.price_card ul {
+    list-style-position: inside;
+     padding-left: 0;
+}
+
+.price_card ul li {
+    margin-bottom: 12px;
+}
+
+/* ////////////////////////////////////////// */
+/* card 1 and 3 - text color of li, h5, p */
+
+.card_01 ul li, h5, p {
+    color: #615c5c;
+}
+.card_03 ul li, h5, p {
+    color: #615c5c;
+}
+
+.card_01 h1, .card_03 h1 {
+    font-weight: 830;
+}
+
+
+
+.card_02 ul li {
+    color: #ffffff;
+} 
+
+
+/* //////////////////////////////// */
+/* all price cards font size */
+
+.price_card p {
+    font-size: 14px;
+    /* font-weight: 600; */
+}
+.price_card h5 {
+    font-size: 16px ;
+    margin-bottom: 6px;
+}
+
+/* //////////////////////////////////////////////// */
+/* all price cards background color and bordar color */
+
+.card_01 {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #e5e7eb;
+}
+
+.card_02 {
+    /* background-color: rgb(114, 114, 204); */
+    background-color: #0d1b2a;
+    border: 1px solid #0d1b2a;
+}
+
+.card_03 {
+    background-color: #f8f9fb;
+    border: 1px solid #e5e7eb;
+    /* color: #ffffff;  */
 }
