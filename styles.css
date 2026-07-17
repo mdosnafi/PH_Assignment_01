@@ -330,6 +330,16 @@ nav {
 
 }
 
+.card_01 button:hover {
+    background-color: #c4c4c4 ;
+}
+.card_02 button:hover {
+    background-color: #D69E2E ;
+}
+.card_03 button:hover {
+    background-color: #c4c4c4 ;
+}
+
 .card_02 button {
      background-color: rgb(45, 102, 224);
      border-style: none;
@@ -348,6 +358,8 @@ nav {
 /* button ends here */
 /* ////////////////////////////////////////////////////////////////// */
 
+/* footer class starts from below -  */
+
 .footer_class {
     display: flex;
     justify-content: space-between;
@@ -355,4 +367,11 @@ nav {
 
 .contact {
     display: flex;
+}
+
+.contact div {
+     display: flex; 
+     justify-content: space-between;
+     /* flex-direction: column; */
+    /* background-color: #2e88e8; */
 }
