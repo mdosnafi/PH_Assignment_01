@@ -326,6 +326,8 @@ nav {
     font-size: 15px;
     font-weight: 700;
 
+    margin-top: 32px;
+
 }
 
 .card_02 button {
@@ -345,3 +347,12 @@ nav {
 }
 /* button ends here */
 /* ////////////////////////////////////////////////////////////////// */
+
+.footer_class {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact {
+    display: flex;
+}
