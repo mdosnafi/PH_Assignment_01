@@ -84,6 +84,9 @@ nav {
     background-color: rgba(35, 35, 226, 0.89);
 }
 
+/* nav bar ends here */
+/* /////////////////////////////////////////////////////////////////////////////////////// */
+
 .hero_contents {
     display: flex;
     flex-direction: column;
@@ -179,8 +182,19 @@ nav {
     margin: auto;
     padding: 8px 30px;
 }
+
+.Pricing_section_whole {
+    /* background-color: #a49c9c; */
+    margin-top: 88px;
+}
 .secure_your_spot_title {
-    margin-bottom: 30px;
+    margin-bottom: 50px;
+    text-align: center;
+   
+}
+.secure_your_spot_title h1 {
+    font-size: 48px;
+    margin-bottom: 12px;
 }
 
 .Pricing_section_whole{
@@ -201,10 +215,17 @@ nav {
 .price_card {
      text-align: left; 
     /* background-color: bisque; */
-     padding: 40px;
+     padding: 40px; 
      border-radius: 10px;
 }
+/* //////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* <hr> tag line's thickness and margins */
 .price_card hr {
+
+    border: none;                     /* Removes ONLY the hr's default border */
+    border-top: 1px solid #d2c5c5;    /* Adds a new thin border to hr */
+    
     margin-top: 18px ;
     margin-bottom: 18px ;
 }
@@ -236,12 +257,18 @@ nav {
 .card_01 h1, .card_03 h1 {
     font-weight: 830;
 }
+/* ///////////////////////////////////////////////////// */
 
-
-
-.card_02 ul li {
-    color: #ffffff;
+/* card 2 - text color of ul, li, p, h5, h1 */
+.card_02 ul li, p {
+    color: #a49c9c;
 } 
+.card_02 h5 {
+    color: #2e88e8;
+}
+.card_02 h1 {
+    color: #f8f9fb;
+}
 
 
 /* //////////////////////////////// */
@@ -262,16 +289,59 @@ nav {
 .card_01 {
     background-color: rgb(255, 255, 255);
     border: 1px solid #e5e7eb;
+    
 }
 
 .card_02 {
     /* background-color: rgb(114, 114, 204); */
     background-color: #0d1b2a;
     border: 1px solid #0d1b2a;
+    
+    
 }
 
 .card_03 {
     background-color: #f8f9fb;
     border: 1px solid #e5e7eb;
+    
     /* color: #ffffff;  */
 }
+/* ////////////////////////////////////////////////////////// */
+
+.card_02 hr {
+    /* border-color: #ab9c9c; */
+    border-top-color: #504c4c; 
+   
+}
+
+/* ////////////////////////////////////////////////////////////// */
+/* buttons of all three cards */
+
+.price_card button {
+    width: 230px;
+    height: 40px;
+
+    border-radius: 8px;
+
+    font-size: 15px;
+    font-weight: 700;
+
+}
+
+.card_02 button {
+     background-color: rgb(45, 102, 224);
+     border-style: none;
+
+     color: #f8f9fb;
+}
+
+.card_01 button {
+    /* border-style: none; */
+    
+    color: #4195ef;
+    border: 2px solid  #2e88e8 ;
+    background-color: rgb(255, 255, 255);
+    
+}
+/* button ends here */
+/* ////////////////////////////////////////////////////////////////// */
