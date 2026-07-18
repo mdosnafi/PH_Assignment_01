@@ -366,14 +366,41 @@ nav {
     display: flex;
     justify-content: space-between;
 
-    margin-top: 80px;
+    align-items: flex-start; 
+    /* width: 100%; */
+
+    margin-top: 20px;
     margin-bottom: 40px;
 
+   
 }
 
 /* ///////////////////////////////////////////////////////////////////////////// */
+.container3 {
+    max-width: 1400px;
+    
+  /* Clockwise: Top=80px, Right=auto, Bottom=0, Left=auto */
+   margin: 70px auto 0 auto;
 
-/* footer connect section start from below  */
+    padding: 8px 30px;
+
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    /* border: 1px solid brown; */
+    /* background-color: #eadbdb; */
+
+    background-color: #f8f9fb; 
+    border-top: 1px solid #e5e7eb;
+
+    border-radius: 8px;
+
+    
+}
+
+/* /////////////////////////// */
+/* footer contact section start from below  */
 
 .contact {
     display: flex;
@@ -388,12 +415,8 @@ nav {
      /* background-color: #D69E2E; */
 
 }
-/* .contact div i {
-    width: 20px;
-} */
-
-.contact h3 {
-    margin-bottom: 26px;
+.Connect_title {
+    margin-bottom: 20px;
 }
 /* ///////////////////////////////////////////////////////////////// */
 
@@ -425,11 +448,9 @@ nav {
 }
 /* /////////////////////////////////////////////////////////////// */
 
-.container3 {
-    max-width: 1100px;
-    margin: auto;
-    padding: 8px 30px;
-}
+
+
+/* footer brand logo part */
 .brand img {
     margin-bottom: 30px;
 }
@@ -440,3 +461,29 @@ nav {
 .brand p {
     line-height: 1.6;
 }
+/* ///////////////////////////// */
+
+.footer_bottom {
+    margin-top: 35px;
+    margin-bottom: 30px;
+}
+
+.container3 hr {
+    width: 100%; /* Forces the line to stretch across the container */
+}
+
+/* footer class font color  */
+.footer_class h3
+ {
+    color: #494545;
+    /* margin-bottom: 20px; */
+}
+
+.contact h4, i {
+    color: rgb(138, 135, 135);
+}
+
+.link a:hover {
+    color: rgb(72, 72, 216); /* Your primary vibrant blue */
+}
+
