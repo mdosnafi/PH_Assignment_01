@@ -101,6 +101,10 @@ nav {
     color: aliceblue;
 }
 
+.hero_title i {
+    color: aliceblue;
+}
+
 .hero_paragraph {
     margin: 25px;
     max-width: 600px;
