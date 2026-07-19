@@ -185,7 +185,7 @@ nav {
 
 .Pricing_section_whole {
     /* background-color: #a49c9c; */
-    margin-top: 88px;
+    margin-top: 50px;
 }
 .secure_your_spot_title {
     margin-bottom: 50px;
@@ -486,4 +486,139 @@ nav {
 .link a:hover {
     color: rgb(72, 72, 216); /* Your primary vibrant blue */
 }
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 
+.placeholder_section {
+
+ /* background-color: #aaadb3;; */
+ margin-top: 20px;
+}
+
+.placeholder_boxes {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+
+}
+
+.placeholder_box {
+
+      flex: 1;
+
+    /* border: 1px solid brown; */
+    border-radius: 12px;
+    /* max-width: 50%; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    padding-top: 24px;
+    padding-bottom: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-align: center; 
+
+    background-color: #172136;  /* dark navy */
+    color: white;
+
+    border: 1px solid #374151;
+   
+
+}
+.placeholder_boxes .placeholder_box p {
+    color: #aeaaaa;
+}
+.placeholder_box i {
+ width: 80px;
+ height: 80px;
+ 
+ font-size: 40px;
+
+ display: flex;
+ align-items: center;
+ justify-content: center;
+
+  border: 3px solid rgb(147, 144, 144);
+  border-radius: 50%;
+
+    margin-bottom: 16px;
+
+     background-color: #122c55;
+    color: white;
+    
+}
+
+.placeholder_box hr {
+    margin-top: 10px;
+    margin-bottom: 25px;
+
+    width: 20% ;
+     border: none;
+
+    height: 4px;
+    background-color: #d85f14;
+}
+/* //////////////////////////////////////////////////////////////////// */
+.placeholder_heading_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 50px;
+    margin-bottom: 10px;
+
+}
+
+.placeholder_heading_section h3 {
+    color: #24365e
+}
+
+.placeholder_heading_section h1 {
+    margin-top: 10px;
+    margin-bottom: 8px;
+
+    font-size: 50px;
+    color: #334570;
+}
+
+.placeholder_heading_section p {
+    font-size: larger;
+    color: #4f5666;
+
+    margin-bottom: 35px;
+}
+/* ////////////////////////////////////////////////////////////////////////////////////// */
+
+.journey_btn {
+
+    border-radius: 8px;
+    width: 300px;
+    height: 55px;
+
+     font-size: 18px;
+    font-weight: 600;
+
+    color: white;
+    background-color: #165aa3;
+
+    margin-top: 30px;
+}
+
+.journey_btn span {
+    margin: 0 12px;
+}
+
+.journey_btn i {
+    font-size: 22px ;
+    color: white;
+}
+
+.journey_btn:hover {
+
+    background-color: #165aa3dd;
+}
